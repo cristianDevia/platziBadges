@@ -1,4 +1,5 @@
 import React from 'react';
+import confLogo from '../images/badge-header.svg'
 
 class Badge extends React.Component {
 
@@ -6,11 +7,11 @@ class Badge extends React.Component {
         return (
             <div>
                 <div>
-                    <img src="" alt="Logo de la conferencia"></img>
+                    <img src={confLogo} alt="Logo de la conferencia"></img>
                 </div>
 
                 <div>
-                    <img src="" alt="Avatar"></img>
+                    <img src="https://www.gravatar.com/avatar?d=identicon" alt="Avatar"></img>
                     <h1> Cristian <br></br> Devia </h1>
                 </div>
 
