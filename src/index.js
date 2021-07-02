@@ -6,6 +6,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Badge from './components/Badge';
 
 //const jsx = <h1>Hello, Platzi Badges</h1>;
 // const container = document.getElementById('app');
@@ -31,13 +32,7 @@ const sum = () => 9 + 9;
 // const container = document.getElementById('app');
 
 
-const element = (
-    <div>
-        <h1>Hola, Soy Cristian</h1>
-        <p>soy estudiante de ingenieria</p>
-    </div>
-);
 const container = document.getElementById('app');
 
 //ReactDOM.render(__qué__, ___dónde___);
-ReactDOM.render(element, container);
+ReactDOM.render(<Badge />, container);
